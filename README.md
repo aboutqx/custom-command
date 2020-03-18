@@ -8,3 +8,11 @@
 
 `git push --set-upstream origin master`
 
+
+2.git handle large size file clone
+
+`git clone --depth <Number> <repository> --branch <branch name> --single-branch` # clone with latest commit
+
+`git fetch --unshallow` 
+
+`git fetch --depth=25` # all the commits or latest 25 commits
