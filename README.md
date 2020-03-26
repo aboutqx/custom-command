@@ -16,3 +16,9 @@
 `git fetch --unshallow` 
 
 `git fetch --depth=25` # all the commits or latest 25 commits
+
+3.git branch
+
+`git checkout -b [branchName]` #new branch from master 
+
+`git branch -l -r` #list remote branches
