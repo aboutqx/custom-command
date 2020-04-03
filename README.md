@@ -22,3 +22,15 @@
 `git checkout -b [branchName]` #new branch from master 
 
 `git branch -l -r` #list remote branches
+
+4.git delete large file (not delete mannuly from file system)
+
+Removing a file added in the most recent unpushed commit
+
+`git rm --cached /path/to/file`
+
+`git commit --amend -CHEAD` # Amend the previous commit with your change
+
+or Removing a file that was added in an earlier commit
+
+https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository
