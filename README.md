@@ -37,4 +37,4 @@ https://help.github.com/en/github/authenticating-to-github/removing-sensitive-da
 
 5.rename case sensitive
 
-`git mv -f OldFileNameCase newfilenamecase`
+`git mv path/OldFileNameCase path/newfilenamecase`
