@@ -34,3 +34,7 @@ Removing a file added in the most recent unpushed commit
 or Removing a file that was added in an earlier commit
 
 https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository
+
+5.rename case sensitive
+
+`git mv -f OldFileNameCase newfilenamecase`
