@@ -45,3 +45,6 @@ https://help.github.com/en/github/authenticating-to-github/removing-sensitive-da
 
 `set HTTPS_PROXY=%HTTP_PROXY%`
 
+7.sub github folder
+
+`git submodule update --init --recursive`
