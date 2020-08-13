@@ -47,4 +47,4 @@ https://help.github.com/en/github/authenticating-to-github/removing-sensitive-da
 
 7.sub github folder
 
-`git submodule update --init --recursive`
+`git clone --recursive <repo>` or `git submodule update --init --recursive`
