@@ -13,7 +13,7 @@
 
 `git clone --depth <Number> <repository> --branch <branch name> --single-branch` # clone with latest commit
 
-`git fetch --unshallow` 
+`git fetch --unshallow`  #get rest
 
 `git fetch --depth=25` # all the commits or latest 25 commits
 
@@ -52,3 +52,23 @@ https://help.github.com/en/github/authenticating-to-github/removing-sensitive-da
 8. reset to master
 
 `git reset --hard master`
+
+9. set git from clone zip
+
+`git clone --bare http://github/user/repo repo`
+
+`$ mkdir repo/.git
+$ mv repo/* repo/.git`
+
+Unzip the repository
+`$ unzip repo.zip`
+
+Re-initialize the repository
+`$ cd repo
+$ git init`
+
+Verify you're sync'ed
+`$ git pull`
+
+Reset the HEAD to clean up the status
+`$ git reset HEAD`
