@@ -71,4 +71,4 @@ Verify you're sync'ed
 `$ git pull`
 
 Reset the HEAD to clean up the status
-`$ git reset HEAD`
+`$ git reset HEAD` 
