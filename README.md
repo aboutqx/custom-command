@@ -72,3 +72,20 @@ Verify you're sync'ed
 
 Reset the HEAD to clean up the status
 `$ git reset HEAD` 
+
+10. clean untracked and ignored
+
+Display what to clean,dry run
+`git clean -d -n <path>`
+
+Clean
+`git clean -d -f <path>`
+
+Have a ask if to delete
+`git clean -d -i`
+
+remove the all ignored and untracked files
+`git clean -d -n -x`
+
+ remove only the ignored files and directories
+ `git clean -d -n -X`
