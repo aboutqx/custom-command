@@ -90,3 +90,9 @@ remove the all ignored and untracked files
 
  remove only the ignored files and directories
  `git clean -d -n -X`
+
+
+11. git ignore existing folder or file
+
+`git rm --cached //file`
+`git rm -r --cached //folder`
